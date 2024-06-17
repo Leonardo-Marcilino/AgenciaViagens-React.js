@@ -10,7 +10,6 @@ export default function Header() {
                 <img src={ Logo } alt="Logo" className={styles.logo} />
                 <h1>Travel</h1>
             </div>
-
             <nav className={styles.navbar}>
                 <ul className={styles.navbar_content}>
                     <Link className={styles.navbar_item} to="/" >Home</Link>
@@ -20,7 +19,6 @@ export default function Header() {
                     <Link className={styles.navbar_item} to="/China" >Muralhas da China</Link>
                 </ul>
             </nav>
-
             <div className={styles.Conteiner_BarraDePesquisa}>
                 <input type="text" className={styles.barra_pesquisa} placeholder="Pesquisar viagens" />
                 <img src={ Lupa } alt="Lupa de pesquisa" />

@@ -14,7 +14,6 @@ export default function Section(props) {
         </section>
     );
 }
-
 Section.propTypes = {
     classSection: PropTypes.string.isRequired,
     titulo: PropTypes.string.isRequired,

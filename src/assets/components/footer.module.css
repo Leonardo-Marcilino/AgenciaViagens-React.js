@@ -4,8 +4,10 @@ footer {
     align-items: center;
     gap: 10px;
 
-    width: 100vw;
-    height: 21.5vh;
+    width: 100%;
+    height: auto;
+    max-width: 1440px;
+    margin: 0 auto;
 
     font-size: 16px;
     color: black;
@@ -24,17 +26,23 @@ footer {
     height: 100%;
 }
 
+.conteudo_footer p{
+    width: 300px;
+    text-align: center;
+}
+
 .container_RedeSocial {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    gap: 10px;
+    justify-content: center;
+
 
     width: 100%;
 }
 
 .container_RedeSocial {
-    width: 100%;
-    height: 25%;
+    width: 34px;
+    height: 34px;
 }
 
 .container_RedeSocial img {
